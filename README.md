@@ -1,4 +1,4 @@
-# Alpine JS Money
+# Alpine JS Skeleton
 
 A lightweight Alpine.js plugin that adds a skeleton loading effect (pulse animation) to elements while data is being fetched or rendered.
 It mimics Tailwind’s `animate-pulse` using pure JavaScript and inline styles.
