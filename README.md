@@ -50,5 +50,15 @@ Alpine.start()
   <button @click="loaded = !loaded">Toggle Loaded</button>
 </div>
 ```
+### Bind to the element
+```
+<div x-data="{ loaded: true }">
+  <div
+    x-skeleton="loaded"
+    style="width:200px;height:20px;border-radius:4px;"
+  ></div>
+  <button @click="loaded = !loaded">Toggle Loaded</button>
+</div>
+```
 When loaded is true, the gray pulsing skeleton appears.
 When loaded becomes false, the animation and background are removed.

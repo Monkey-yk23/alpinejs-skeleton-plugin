@@ -1,6 +1,6 @@
   {
     "name": "alpinejs-skeleton",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Adding reactive skeleton to your project without writing additional style directive or adding more html to your project",
   "keywords": [
     "Alpine",
