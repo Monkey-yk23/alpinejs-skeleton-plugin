@@ -1,8 +1,9 @@
 export default function (Alpine) {
   Alpine.directive('skeleton', (el, { expression }, { evaluateLater, effect }) => {
-    const style = document.querySelector('style')
-    style.id = 'pulse-style';
-    style.textContent = `
+    if (!document.getElementById("pulse-style")) {
+      const style = document.createElement('style')
+      style.id = 'pulse-style';
+      style.textContent = `
     @keyframes pulse-animation {
 
         0%,
@@ -15,6 +16,7 @@ export default function (Alpine) {
         }
     }
     `
+    }
     document.head.appendChild(style)
     let getValue = evaluateLater(expression)
     effect(() => {
