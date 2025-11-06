@@ -18,9 +18,9 @@ It mimics Tailwind’s `animate-pulse` using pure JavaScript and inline styles.
 ### With a Package Manager
 
 ```shell
-npm install -D alpinejs-money
+npm install -D alpinejs-skeleton
 
-yarn add -D alpinejs-money
+yarn add -D alpinejs-skeleton
 ```
 
 ```js
