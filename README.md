@@ -37,9 +37,9 @@ Alpine.start()
 ### Basic
 
 ```
-<div x-data="{ loaded: false }">
+<div x-data="{ loaded: true }">
   <div
-    x-skeleton="!loaded"
+    x-skeleton="loaded"
     style="width:200px;height:20px;border-radius:4px;"
   ></div>
 
